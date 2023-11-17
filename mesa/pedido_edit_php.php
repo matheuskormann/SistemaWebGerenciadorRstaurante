@@ -10,20 +10,16 @@
             if (!isset($_SESSION["id"])) {
                 header("Location: index.php");
             }
-
-            $name = $_POST["txtName"];
-            $login = $_POST["txtlogin"];
-            $password = $_POST["txtPassword"];
-            $role = $_POST["txtRole"];
-            $id = $_POST["hidId"];
-            $sql = "UPDATE funcionario SET name = '$name',login = '$login', password = '$password', role = '$role' WHERE id_funcionario = $id";
+            $id_pedido = $_POST["id_pedido"];
+            $sql = "UPDATE pedido SET fk_produto_id_produto = '$id_produto', fk_funcionario_id_funcionario = '$id_funcionario' WHERE id_pedidos = $id_pedido";
+            
             $result = $conn->query($sql);
-
+            
             if ($result === TRUE) {
 ?>
 <script>
-    alert('Usuário editado com sucesso!!!');
-    location.href = 'users_lst.php';
+    alert('Pedido editado com sucesso!!!');
+    location.href = 'menuMesas.php';
 </script>
 <?php
             }

@@ -1,0 +1,141 @@
+
+body{
+    background-color: #C5C8D9;
+}
+h1,h2{
+    display: flex;
+    position: relative;
+    justify-content: center; 
+    align-items: center;
+    color: #3B568C;
+}
+h3{
+    font-size: xx-large;
+    color: #000000;
+}
+hr{ 
+    height: 2px;
+   background-color: black;
+   border: black;
+}
+#conteinerhome{
+    display: flex;
+    flex-wrap: wrap;
+}
+.homeDados{
+    margin: 55px;
+    flex-grow: 155;
+    flex-basis: 200;
+    background-color: #3B568C;
+    border: 2px solid #A67968;
+    width: 255px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+}
+.infohome{
+    display: flex;
+    flex-direction: row; 
+    position: relative;
+    justify-content: center; 
+    align-items: center;
+    
+}
+button > img {
+    width: 25px;
+}
+button{
+    cursor: pointer; 
+    padding: 5px 5px ;
+    border: 2px solid #A67968;
+    border-radius: 10px;
+}
+#buttonMenu{
+    background-color: #D9B68B;
+    position: relative;
+    left: 0;
+    margin-left: 15px;
+    bottom: 105px;
+}
+.buttonMenu:hover {
+    background-color: #A67968;
+}
+#fecharMenu {
+    background-color: #3B568C;
+    position: relative;
+    top:  0;
+    margin-top: 5px;
+    margin-left: 255px;   
+}
+#buttonLogout{
+    color: #ffffff;
+    background-color: #3B568C; 
+    cursor: pointer;
+    transition: 0.7s;
+    position: relative;
+    top:  0;
+    margin-top: 5px;
+    margin-left: 255px; 
+}
+#buttonLogout:hover{
+    background-color: #A67968;
+  }
+
+#conteinerDados{
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+#menubar{
+    display: none;
+    background-color: #D9B68B;;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    border-right:2px solid #A67968;
+   
+    
+}
+#conteinerButton{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 51px;
+    
+}
+#menubuttons{
+    position: relative;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.menuItem{
+    text-align: center;
+    padding: 15px 0px ;
+    width: 100%;
+    background-color: #D9B68B;
+    color: #000000;
+    text-decoration: none;
+    border-top: 2px solid #000000;
+    cursor: pointer; 
+    transition: 0.7s;
+}
+.menuItem:hover {
+    background-color: #A67968;
+}
+.botao-link {
+    padding: 10px 20px;
+    background-color: #D9B68B;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #A67968;
+    border-radius: 5px;
+    margin: 55px;
+}
+
+.botao-link:hover {
+    background-color: #D9C2AD;
+}

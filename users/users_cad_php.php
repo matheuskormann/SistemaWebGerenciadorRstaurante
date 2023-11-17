@@ -10,7 +10,7 @@
             $password = $_POST["txtPassword"];
             $role = $_POST["txtRole"];
             $login = $_POST["txtLogin"];
-            $sql = "INSERT INTO login(name, password,login, role) VALUES('$name', '$password','$login', '$role')";
+            $sql = "INSERT INTO funcionario(name, password,login, role) VALUES('$name', '$password','$login', '$role')";
             $result = $conn->query($sql);
 
             if ($result === TRUE) {

@@ -4,7 +4,7 @@
     $login = $_POST["txtLogin"];
     $password = $_POST["txtPassword"];
 
-    $sql = "SELECT id, password, role FROM login WHERE login = '$login'";
+    $sql = "SELECT id_funcionario, password, role FROM funcionario WHERE login = '$login'";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -12,7 +12,7 @@
             if ($row["password"] == $password) {
                 header("Location:   home/home.php");
                 session_start();
-                $_SESSION["id"] = intval($row["id"]);
+                $_SESSION["id"] = intval($row["id_funcionario"]);
                 $_SESSION["role"] = intval($row["role"]);
             }
             else {

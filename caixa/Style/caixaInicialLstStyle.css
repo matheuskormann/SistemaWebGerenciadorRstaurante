@@ -1,0 +1,78 @@
+body{
+    background-color: #C5C8D9;
+    overflow: hidden;
+}
+h1,h2{
+    display: flex;
+    position: relative;
+    justify-content: center; 
+    align-items: center;
+    color: #3B568C;
+}
+h3{
+    display: flex;
+    position: relative;
+    justify-content: center; 
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center; 
+    align-items: center;
+ 
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#botaoVoltar {
+    background-color: #D9B68B;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #A67968;
+    padding: 30px 5px 0px 0px;
+    border-radius: 100px;
+    margin-left: 25px;
+    position: relative;
+    top: -85px;
+}
+#conteinercaixa{
+    overflow: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3B568C;
+    border: 2px solid #D9B68B;
+    width: 345px;
+    height: 155px;
+    position: relative;
+    bottom: 51px;
+}
+#inputEnviar{
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #D9B68B;
+    border-radius: 15px; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer;
+    transition: 0.7s;
+    position: relative;
+    bottom: 7px;
+}
+#inputEnviar:hover{
+    background-color: #A67968;
+}
+
+
+  input:not(#inputEnviar){
+    border: 3px solid #A67968;
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    color: #000000;
+    background-color: #D9C2AD;
+}

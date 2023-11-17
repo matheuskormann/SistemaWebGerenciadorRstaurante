@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blaze Restaurante login</title>
   <link rel="stylesheet" href="LoginStyle.css">
+  <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
 </head>
     <body>
         <img id="LogoBlazeRestaurante" src="./imagens/LogoBlazeRestaurante.png" alt="BLEZE">

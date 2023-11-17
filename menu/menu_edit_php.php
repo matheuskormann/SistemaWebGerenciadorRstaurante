@@ -11,19 +11,18 @@
                 header("Location: index.php");
             }
 
-            $name = $_POST["txtName"];
-            $login = $_POST["txtlogin"];
-            $password = $_POST["txtPassword"];
-            $role = $_POST["txtRole"];
+            $nameProd = $_POST["txtNameProd"];
+            $valorProd = $_POST["txtvalorProd"];
+            $tipoProd = $_POST["txttipoProd"];
             $id = $_POST["hidId"];
-            $sql = "UPDATE funcionario SET name = '$name',login = '$login', password = '$password', role = '$role' WHERE id_funcionario = $id";
+            $sql = "UPDATE produto SET nome_produto = '$nameProd', valor_produto = '$valorProd', tipo_produto = '$tipoProd' WHERE id_produto = $id";
             $result = $conn->query($sql);
 
             if ($result === TRUE) {
 ?>
 <script>
     alert('Usuário editado com sucesso!!!');
-    location.href = 'users_lst.php';
+    location.href = 'menu_lst.php';
 </script>
 <?php
             }

@@ -1,0 +1,74 @@
+body{
+    background-color: #C5C8D9;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    position: relative;
+    justify-content: center; 
+    align-items: center;
+    color: #3B568C;
+}
+h2{
+    margin-left: 199px;
+}
+p {position: relative;
+    left: 40px;
+   
+  
+}
+input{
+    padding: 10px ;
+    margin: 0px 100px;
+    position: relative;
+    right: 65px;
+    bottom: 10px;
+}
+input:focus::placeholder {
+    color: #fff;
+}
+#botaoVoltar{ 
+    background-color: #D9B68B;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #A67968;
+    padding: 30px 5px 0px 0px;
+    border-radius: 55px;
+    margin-left: 25px;
+}
+#conteinereditor{
+    background-color: #3B568C;
+    border: 2px solid #D9B68B;
+    border-radius: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 550px;
+    height: 380px;
+}
+#inputEnviar{
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #D9B68B;
+    border-radius: 15px; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer;
+    transition: 0.7s;
+    position: relative;
+    top: 25px;
+    left: 140px;
+}
+#inputEnviar:hover{
+    background-color: #A67968;
+  }
+input:not(#inputEnviar){
+    border: 3px solid #A67968;
+    width: 490px;
+    height: 25px;
+    border-radius: 20px;
+    color: #000000;
+    background-color: #D9C2AD;
+}

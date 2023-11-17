@@ -15,14 +15,14 @@
     }
     else {
         $id = $_GET["id"];
-        $sql = "DELETE FROM funcionario WHERE id_funcionario = $id";
+        $sql = "DELETE FROM produto WHERE id_produto = $id";
         $result = $conn->query($sql);
 
         if ($result === TRUE) {
 ?>
 <script>
-    alert('Usuário removido com sucesso!!!');
-    location.href = 'users_lst.php';
+    alert('item removido com sucesso!!!');
+    location.href = 'menu_lst.php';
 </script>
 <?php
         }

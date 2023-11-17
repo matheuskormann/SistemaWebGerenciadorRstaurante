@@ -9,6 +9,7 @@ h1{
 #LogoBlazeRestaurante{
     height: 200px;
     margin-left: 42%;
+  
 }
 
 #conteinerLogin{
@@ -26,8 +27,6 @@ h1{
 }
 #conteinerLogin > input{
     margin-left: 65px;
-    
-    
 }
 #inputEnviar{
     font-weight: 900;
