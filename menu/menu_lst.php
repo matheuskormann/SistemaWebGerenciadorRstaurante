@@ -66,7 +66,7 @@ session_start();
     </div>
     <script>
         function excluir(id) {
-            if (confirm("Tem certeza que deseja excluir este registro?")) {
+            if (confirm("Tem certeza que deseja excluir este Produto?")) {
                 location.href = "menu_del_php.php?id=" + id;
             }
         }

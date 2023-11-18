@@ -88,7 +88,7 @@ WHERE
     </div>
     <script>
         function excluir(id) {
-            if (confirm("Tem certeza que deseja excluir este registro?")) {
+            if (confirm("Tem certeza que deseja excluir este Pedido?")) {
                 location.href = "Pedido_del_php.php?id=" + id;
             }
         }

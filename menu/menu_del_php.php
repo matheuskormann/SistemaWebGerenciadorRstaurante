@@ -21,7 +21,7 @@
         if ($result === TRUE) {
 ?>
 <script>
-    alert('item removido com sucesso!!!');
+    alert('Produto removido com sucesso!!!');
     location.href = 'menu_lst.php';
 </script>
 <?php

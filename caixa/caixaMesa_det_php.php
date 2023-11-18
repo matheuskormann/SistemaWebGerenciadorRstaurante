@@ -21,7 +21,7 @@
         if ($result === TRUE) {
 ?>
 <script>
-    alert('item removido com sucesso!!!');
+    alert('Pedido removido com sucesso!!!');
     location.href = "caixaInicial.php";
 </script>
 <?php

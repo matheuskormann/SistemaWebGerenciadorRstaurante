@@ -57,13 +57,6 @@ $quantidade = $row['quantidade'];
 
             </div>
         </div> 
-        <div class="homeDados" id="conteinerValorVendidoDia">
-            <div class="infohome">
-                <img src="../imagens/dimdin.png" alt="" style="width: 55px; height: 55px;">
-                <h3>: R$ 2675,86</h3>
-
-            </div>
-        </div> 
         <div class="homeDados" id="conteinerNumeroFuncionarios">
             <div class="infohome">
                 <img src="../imagens/iconName.png" alt="" style="width: 55px; height: 55px;">
@@ -106,8 +99,6 @@ $quantidade = $row['quantidade'];
             <a class="menuItem" href="../menu/menu_lst.php">Menus</a>
             <a class="menuItem" href="../mesa/menuMesas.php">Messas</a>
             <a class="menuItem" href="../caixa/caixaInicial.php">Caixa</a>
-            <a class="menuItem" href="">cozinha</a>
-            <a class="menuItem" href="">configurações</a>
             <a class="menuItem" href=""></a>
             
         </div>

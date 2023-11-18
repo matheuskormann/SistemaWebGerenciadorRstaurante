@@ -21,7 +21,7 @@
             if ($result === TRUE) {
 ?>
 <script>
-    alert('Usuário editado com sucesso!!!');
+    alert('Produto editado com sucesso!!!');
     location.href = 'menu_lst.php';
 </script>
 <?php
