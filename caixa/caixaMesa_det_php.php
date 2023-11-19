@@ -5,11 +5,11 @@
     if (!isset($_SESSION["id"])) {
         header("Location: ../index.php");
     }
-    else if ($_SESSION["id"] != 1 || $_SESSION["id"] == $id ) {
+    else if ($_SESSION["id"] != 1  ) {
 ?>
 <script>
     alert("Você não tem permissão de exclusão no sistema");
-    history.go(-1);
+    location.href = "caixaInicial.php";
 </script>
 <?php
     }
