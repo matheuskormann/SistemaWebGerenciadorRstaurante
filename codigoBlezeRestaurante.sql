@@ -7,7 +7,7 @@ CREATE TABLE pedido (
     id_pedidos INT PRIMARY KEY AUTO_INCREMENT,
     fk_produto_id_produto INT,
     fk_funcionario_id_funcionario INT,
-    fk_Mesa_Id_mesa INT
+    fk_Mesa_id_mesa INT
 );
 
 CREATE TABLE produto (
