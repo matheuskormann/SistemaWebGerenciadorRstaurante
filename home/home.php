@@ -15,7 +15,7 @@ session_start();
     session_destroy();
 
     
-    header("Location: http://localhost/SistemaWedGerenciadorRstaurante/index.php");
+    header("Location:../index.php");
     exit();
 }
 include('../connection.php');

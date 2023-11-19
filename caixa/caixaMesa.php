@@ -3,7 +3,7 @@ include('../connection.php');
 
 session_start();
 if (!isset($_SESSION["id"])) {
-    header("Location: index.php");
+    header("Location: ../index.php");
 } else if ($_SESSION["id"] > 5) {
     ?>
     <script>
@@ -50,7 +50,7 @@ $total_pedido = 0;
 <body>
     <h1>Blaze Restaurante</h1>
     <h2>mesa: <?php echo $mesa ?></h2>
-    <a id="botaoVoltar" href="../home/home.php"><img src="../imagens/iconVoltar.png" alt="voltarHome" style="width: 40px; height: 40px"></a>
+    <a id="botaoVoltar" href="../caixa/caixaInicial.php"><img src="../imagens/iconVoltar.png" alt="voltarHome" style="width: 40px; height: 40px"></a>
     <div id="conteinercaixa">
         <div id="coneinerTabela">
             <table>
