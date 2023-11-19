@@ -1,0 +1,50 @@
+body{
+    background-color: #C5C8D9;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    position: relative;
+    justify-content: center; 
+    align-items: center;
+    color: #3B568C;
+}
+h2{
+    margin-left: 130px;
+}
+p {
+text-align: center;
+font-size: large;
+
+    
+  
+}
+input{
+    padding: 10px;
+    margin: 0px 55px;
+    position: relative;
+    bottom: 10px;
+}
+input:focus::placeholder {
+    color: #999;
+}
+#botaoVoltar{ 
+    background-color: #D9B68B;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #A67968;
+    padding: 30px 5px 0px 0px;
+    border-radius: 100px;
+    margin-left: 25px;
+}
+#conteinersobre{
+    background-color: #3B568C;
+    border: 2px solid #D9B68B;
+    border-radius: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+}

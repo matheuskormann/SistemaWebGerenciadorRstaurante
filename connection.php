@@ -1,12 +1,12 @@
 <?php
     $servername = "localhost";
-    $username = "root"; // PUC => root
-    $password = "PUC#1234";
+    $username = "root"; 
+    $password = "PUC#1234";//alterar senha 
     $dbname = "dbblazerestaurantes";
 
-    $conn = new mysqli($servername, $username, $password, $dbname,3308);
+    $conn = new mysqli($servername, $username, $password, $dbname,3308);//aterar a porta do sql
     if ($conn->connect_error) {
         die("Conexão falhou: ${$conn->connect_error}");
     }
-    // echo "Conexão Ok";
+    
 ?>  
