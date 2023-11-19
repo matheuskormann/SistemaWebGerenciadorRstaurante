@@ -89,9 +89,10 @@ margin-left: 9px;
 }
 
 #contButton{
-    margin-left: 499px;
+    width: 35px;
+    margin-left: 489px;
     margin-top: -85px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     border-radius: 25px;
     
 }

@@ -97,7 +97,7 @@ $quantidade = $row['quantidade'];
         <div id="menubuttons">
             <a class="menuItem" href="../users/users_lst.php">Usuarios</a>
             <a class="menuItem" href="../menu/menu_lst.php">Menus</a>
-            <a class="menuItem" href="../mesa/menuMesas.php">Messas</a>
+            <a class="menuItem" href="../mesa/menuMesas.php">Mesas</a>
             <a class="menuItem" href="../caixa/caixaInicial.php">Caixa</a>
             <a class="menuItem" href=""></a>
             
