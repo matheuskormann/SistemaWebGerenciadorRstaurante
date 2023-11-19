@@ -1,11 +1,11 @@
 <?php
 session_start();
 if (!isset($_SESSION["id"])) {
-    header("Location: http://localhost/BlazeRestaurante/SistemaWedGerenciadorRstaurante/index.php");
+    header("Location: ../index.php");
     ?>
     <script>
         alert("Para continuar, realize o login");
-        location.href = 'http://localhost/BlazeRestaurante/SistemaWedGerenciadorRstaurante/index.php';
+        location.href = '../index.php';
     </script>
     <?php
     exit; 

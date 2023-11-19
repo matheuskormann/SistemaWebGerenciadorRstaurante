@@ -1,7 +1,7 @@
 <?php
 session_start();
     if (!isset($_SESSION["id"])) {
-        header("Location: http://localhost/BlazeRestaurante/SistemaWedGerenciadorRstaurante/index.php");
+        header("Location: ../index.php");
 ?>
 <script>
     alert("para continuar realize o login");
@@ -15,7 +15,7 @@ session_start();
     session_destroy();
 
     
-    header("Location: http://localhost/BlazeRestaurante/SistemaWedGerenciadorRstaurante/index.php");
+    header("Location: http://localhost/SistemaWedGerenciadorRstaurante/index.php");
     exit();
 }
 include('../connection.php');
