@@ -26,7 +26,7 @@ CREATE TABLE funcionario (
 );
 
 CREATE TABLE mesa (
-    Id_mesa INT PRIMARY KEY AUTO_INCREMENT,
+    id_mesa INT PRIMARY KEY AUTO_INCREMENT,
     status_mesa BOOLEAN
 );
 
